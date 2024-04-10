@@ -2,6 +2,7 @@ import express from "express";
 import restaurantsData from "./data/restaurantsData.js";
 
 const app = express();
+app.use(express.static("public"));
 
 app.get("/", (request, response) => {
   response.send("welcome to my restaurant API");

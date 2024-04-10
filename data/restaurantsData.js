@@ -5,8 +5,7 @@ const restaurantsData = [
     reviews: "4",
     location: "Germany",
     type: "fast food",
-    image:
-      "https://thumbs.dreamstime.com/z/kfc-gastst%C3%A4tteinnenraum-64599854.jpg",
+    image: "./public/kfc.jpg",
   },
   {
     id: 2,
