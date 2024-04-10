@@ -1,4 +1,4 @@
-import express from "express";
+import express, { request, response } from "express";
 import restaurantsData from "./data/restaurantsData.js";
 
 const app = express();
@@ -10,6 +10,13 @@ app.get("/", (request, response) => {
 //route : data// restaurantsdata to localhost 30000
 app.get("/restaurants", (request, response) => {
   response.json(restaurantsData);
+});
+app.get("/restaurants/:id", (request, response) => {
+  let { id } = request.params;
+  const restaurant = restaurantsData.find(
+    (restaurant) => restaurant.id === parseInt(id)
+  );
+  request.json(restaurant);
 });
 //call port
 app.listen(3000, () => {

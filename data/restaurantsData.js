@@ -5,7 +5,7 @@ const restaurantsData = [
     reviews: "4",
     location: "Germany",
     type: "fast food",
-    image: "./public/kfc.jpg",
+    image: "/kfc.jpg",
   },
   {
     id: 2,
@@ -13,6 +13,7 @@ const restaurantsData = [
     reviews: "4",
     location: "Germany",
     type: "fast food",
+    image: "/kfc.jpg",
   },
   {
     id: 3,
@@ -20,6 +21,7 @@ const restaurantsData = [
     reviews: "4",
     location: "Germany",
     type: "fast food",
+    image: "/kfc.jpg",
   },
   {
     id: 4,
@@ -27,6 +29,7 @@ const restaurantsData = [
     reviews: "4",
     location: "Germany",
     type: "fast food",
+    image: "/kfc.jpg",
   },
   {
     id: 5,
@@ -34,13 +37,15 @@ const restaurantsData = [
     reviews: "4",
     location: "Germany",
     type: "fast food",
+    image: "/kfc.jpg",
   },
   {
-    id: 5,
+    id: 6,
     name: "kfc",
     reviews: "4",
     location: "Germany",
     type: "fast food",
+    image: "/kfc.jpg",
   },
 ];
 export default restaurantsData;
