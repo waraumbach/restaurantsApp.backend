@@ -1,8 +1,10 @@
 import express, { request, response } from "express";
 import restaurantsData from "./data/restaurantsData.js";
-
+import cors from "cors";
 const app = express();
+
 app.use(express.static("public"));
+app.use(cors());
 
 app.get("/", (request, response) => {
   response.send("welcome to my restaurant API");
@@ -11,6 +13,7 @@ app.get("/", (request, response) => {
 app.get("/restaurants", (request, response) => {
   response.json(restaurantsData);
 });
+//access to data to id
 app.get("/restaurants/:id", (request, response) => {
   let { id } = request.params;
   const restaurant = restaurantsData.find(

@@ -2,7 +2,7 @@ const restaurantsData = [
   {
     id: 1,
     name: "kfc",
-    reviews: "4",
+    reviews: ["4 good service"],
     location: "Germany",
     type: "fast food",
     image: "/kfc.jpg",
@@ -10,7 +10,7 @@ const restaurantsData = [
   {
     id: 2,
     name: "kfc",
-    reviews: "4",
+    reviews: ["4 good service"],
     location: "Germany",
     type: "fast food",
     image: "/kfc.jpg",
@@ -18,7 +18,7 @@ const restaurantsData = [
   {
     id: 3,
     name: "kfc",
-    reviews: "4",
+    reviews: ["4 good service"],
     location: "Germany",
     type: "fast food",
     image: "/kfc.jpg",
@@ -26,7 +26,7 @@ const restaurantsData = [
   {
     id: 4,
     name: "kfc",
-    reviews: "4",
+    reviews: ["4 good service"],
     location: "Germany",
     type: "fast food",
     image: "/kfc.jpg",
@@ -34,7 +34,7 @@ const restaurantsData = [
   {
     id: 5,
     name: "kfc",
-    reviews: "4",
+    reviews: ["4 good service"],
     location: "Germany",
     type: "fast food",
     image: "/kfc.jpg",
@@ -42,7 +42,7 @@ const restaurantsData = [
   {
     id: 6,
     name: "kfc",
-    reviews: "4",
+    reviews: ["4 good service"],
     location: "Germany",
     type: "fast food",
     image: "/kfc.jpg",
