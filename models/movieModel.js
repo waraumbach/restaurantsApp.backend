@@ -2,8 +2,8 @@ import mongoose, { Schema } from "mongoose";
 
 const movieSchema = new mongoose.Schema({
   title: String,
-  review: String,
-  rating: String,
+  gener: String,
+  year: Number,
 });
 
 const Movie = mongoose.model("Movie", movieSchema);

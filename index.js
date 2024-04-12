@@ -7,6 +7,8 @@ const app = express();
 
 app.use(express.static("public"));
 app.use(cors());
+app.use(express.json())
+app.use(express.urlencoded({extended : false}))
 
 const password = "Ic3ADlHUWyBQ2KYD";
 const URL =
